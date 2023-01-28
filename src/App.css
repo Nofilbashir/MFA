@@ -1,0 +1,21 @@
+/* make variables */
+:root {
+--primary_color:#845EC2;
+--bg_color:#FBEAFF
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+input{
+  font-family: 'Khand', sans-serif  !important;
+}
