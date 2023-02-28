@@ -5,8 +5,9 @@ import 'react-toastify/dist/ReactToastify.css';
 import './App.css'
 const App = () => {
   return (
-    <div><Home />
-       <ToastContainer />
+    <div>
+      <Home />
+      <ToastContainer />
     </div>
   )
 }

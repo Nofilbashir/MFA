@@ -124,57 +124,12 @@ let headers = [
         <label htmlFor="file"> USER FILE</label>
         <input type="file" name="file" id='file_No_MFA_Key' onChange={changeHandler} accept=".csv" className="Fileinput" />
     </div>
-    <div className="noMFATable">
-    <table>
-        <thead>
-          <tr>
-            {tableRows.file_No_MFA_Key.map((rows, index) => {
-              return <th key={index}>{rows}</th>;
-            })}
-          </tr>
-        </thead>
-        <tbody>
-          {values.file_No_MFA_Key.slice(0,5).map((value, index) => {
-            return (
-              <tr key={index}>
-                {value.map((val, i) => {
-                  return <td key={i}>{val}</td>;
-                })}
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
-    </div>
 
 
 
     <div className="input_container">
         <label htmlFor="file"> MFA STATUS FILE</label>
         <input type="file" name="file" id='file_With_MFA_key' onChange={changeHandler} accept=".csv" className="Fileinput"/>
-    </div>
-
-    <div className="MFATable">
-    <table>
-        <thead>
-          <tr>
-            {tableRows.file_With_MFA_key.map((rows, index) => {
-              return <th key={index}>{rows}</th>;
-            })}
-          </tr>
-        </thead>
-        <tbody>
-          {values.file_With_MFA_key.slice(0,5).map((value, index) => {
-            return (
-              <tr key={index}>
-                {value.map((val, i) => {
-                  return <td key={i}>{val}</td>;
-                })}
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
     </div>
 
 
