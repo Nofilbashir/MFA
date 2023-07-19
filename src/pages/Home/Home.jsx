@@ -128,7 +128,7 @@ let headers = [
 
 
     <div className="input_container">
-        <label htmlFor="file"> MFA STATUS FILE</label>
+        <label htmlFor="file"> USER STATUS FILE</label>
         <input type="file" name="file" id='file_With_MFA_key' onChange={changeHandler} accept=".csv" className="Fileinput"/>
     </div>
 
